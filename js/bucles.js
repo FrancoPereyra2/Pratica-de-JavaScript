@@ -16,3 +16,13 @@ do {
   document.write(`<p> Renglon numero ${renglon}</p>`);
    renglon++; //renglon = renglon + 1;
 } while (renglon <= 5);
+
+/*
+for(inicializar una variable; condicion logica; incrementar/decrementar variable){
+ todas las lineas de codigo que quiero repetir
+}
+*/
+
+for(let contador = 10; contador >= 1; contador--){
+    document.write(`<p> Cuenta regresiva N°: ${contador}</p>`);
+}
