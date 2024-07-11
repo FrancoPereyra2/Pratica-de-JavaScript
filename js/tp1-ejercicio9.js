@@ -1,6 +1,8 @@
 //1 - pedir frase
-const frase = String(prompt(`Ingresa una frase de 4 caracteres`));
+const frase = prompt(`Ingresa una frase de 4 caracteres`).toLowerCase();
 console.log(frase);
+console.log(frase.toLowerCase()); // convierte en minuscula
+console.log(frase.toUpperCase()); // convierte en mayuscula
 console.log(frase.length);
 console.log(frase.substring(0, 3));
 console.log(frase.charAt(3));
