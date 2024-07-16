@@ -11,11 +11,13 @@ console.log(fila);
 console.log(columna);
 
 document.write(`<table><tbody>`);
-document.write(`<tr>`);
 
-for(let indiceColumna = 0; indiceColumna < columna; indiceColumna++){
-    document.write(`<td>1</td>`);
+for(let indiceFilas = 1; indiceFilas <= fila; indiceFilas++){
+    document.write(`<tr>`);
+    for(let indiceColumna = 1; indiceColumna <= columna; indiceColumna++){
+        document.write(`<td>1</td>`);
+    }
+    document.write(`</tr>`);
 }
 
-document.write(`</tr>`);
 document.write(`</tbody></table>`);
